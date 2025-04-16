@@ -1,5 +1,16 @@
 # Assimp fbx import/export test
 
+build
+
+```
+git clone --recursive https://github.com/Nor-s/assimp-export-test.git
+cd assimp-export-test
+mkdir out
+cd out
+cmake ..
+cmake --build ./
+```
+
 ## issue 5711, 4556 to_ktime 
 
 - https://github.com/assimp/assimp/issues/5711#issue-2461452256
